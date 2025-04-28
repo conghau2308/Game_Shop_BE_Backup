@@ -23,8 +23,8 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name="google_code")
-    private String googleCode;
+    // @Column(name="google_code")
+    // private String googleCode;
 
     @Column(name="email")
     private String email;
